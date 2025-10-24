@@ -1,8 +1,7 @@
 from database.operations import update_user
-import logging
+from utils.logger import AppLogging
 
-
-logger = logging.getLogger(__name__)
+logger = AppLogging.get_logger()
 
 
 class UserService:
@@ -11,5 +10,3 @@ class UserService:
         await update_user(user_id, **kwargs)
         for field,value in kwargs.items():
             logger.info(f"✅ User {user_id} update {field}: {value}")
-            
-    

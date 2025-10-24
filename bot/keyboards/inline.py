@@ -82,7 +82,7 @@ def get_return_to_menu(lang="en"):
     return InlineKeyboardMarkup(
         inline_keyboard=[
             [
-                InlineKeyboardButton(text=texts["buttons"][lang]["back_to_menu"], callback_data="main_menu")
+                InlineKeyboardButton(text=texts["buttons"][lang]["back_to_menu"], callback_data="edit_menu")
             ]
         ]
     )

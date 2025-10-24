@@ -19,7 +19,7 @@ async def get_or_create_user(telegram_id: int) -> User:
         return user
 
 
-async def update_user(telegram_id: int, **kwargs):
+async def update_user(telegram_id: int, **kwargs) -> User | None:
     async with SessionLocal() as session:
         result = await session.execute(
             select(User).where(User.telegram_id == telegram_id)
@@ -34,4 +34,3 @@ async def update_user(telegram_id: int, **kwargs):
             return user
         else:
             return None
-

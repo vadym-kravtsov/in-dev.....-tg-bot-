@@ -1,18 +1,17 @@
-from aiogram import F, Router, types, exceptions
-
 import json
-import logging
 from random import randint
 from datetime import date
 
-from bot.keyboards import inline
+from aiogram import F, Router, types, exceptions
 
+from bot.keyboards import inline
 from database.operations import get_or_create_user
 from services.user_service import UserService
 from services.card_service import CardService
+from utils.logger import AppLogging
 
 router: Router = Router()
-logger = logging.getLogger(__name__)
+logger = AppLogging.get_logger()
 
 with open("data/text_menu.json", "r", encoding="UTF-8") as f:
     texts = json.load(f)
@@ -42,11 +41,11 @@ async def obusha_deck_handler(callback: types.CallbackQuery, lang: str):
     await UserService.update_user_field(callback.from_user.id, last_obusha_date=date.today())
     image_id = await CardService.get_media_id(deck_name, num_card)
     card_data = await CardService.get_card_descriptions(num_card, deck_name, lang)
-    card_caption = f"<b>{card_data["name"]}</b>\n\n<i>{card_data["descriptions"]}</i>"
+    card_caption = f"<b>{card_data['name']}</b>\n\n<i>{card_data['descriptions']}</i>"
     media = types.InputMediaPhoto(media=image_id, caption=card_caption, parse_mode="HTML")
 
     await callback.message.edit_media(media=media,
-                                      reply_markup=inline.get_return_tu_edit_menu(lang),
+                                      reply_markup=inline.get_return_to_edit_menu(lang),
                                       protect_content=True)
 
 

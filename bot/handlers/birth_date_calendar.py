@@ -34,7 +34,7 @@ async def birth_data_save_handler(
 ):
     if callback.data is not None and "CANCEL" in callback.data:
         await state.clear()
-        await callback.message.edit_text(  # type: ignore
+        await callback.message.edit_text(
             text=texts["menu"][lang]["main_menu_title"], reply_markup=inline.get_main_keyboard(lang)
         )
         return None

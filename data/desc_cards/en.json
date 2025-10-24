@@ -1,0 +1,644 @@
+{
+  "obusha": {
+    "1": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Finish the process.\nThere are things you've been carrying for too long. Promises, thoughts, tasks..."
+    },
+    "2": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Feel the boundaries.\nBeing kind doesn't mean being open to everything..."
+    },
+    "3": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Break the pattern.\nYou've done this a hundred times. Out of habit. Out of inertia. According to someone else's script..."
+    },
+    "4": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Feel my own rhythm.\nYou were not created to run at someone else's signal. Your rhythm is in silence, in breathing, in..."
+    },
+    "5": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Accept uncertainty.\nYou are not obligated to know what comes next. Sometimes a new direction is born precisely in the fog..."
+    },
+    "6": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Leave the past in the past.\nYou are no longer there. And even if thoughts return – it's just an echo..."
+    },
+    "7": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Step out of the role.\nYou were who you needed to be for too long. Strong. Good. Indispensable..."
+    },
+    "8": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Reclaim my voice.\nYou were silent for a long time. Perhaps out of caution, fear, or the habit of being convenient..."
+    },
+    "9": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Experience life fully.\nNot for survival. But for taste. For shades. For depth..."
+    },
+    "10": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Take a breath out.\nYou are constantly tense and have forgotten what it's like to relax..."
+    },
+    "11": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Choose a new step.\nYou are not obligated to go where you went yesterday. Even if everyone expects it..."
+    },
+    "12": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Be honest with myself.\nYou can try to tell yourself the truth. The one that needs no explanation..."
+    },
+    "13": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Understand what I want.\nHow much longer can you run without knowing where? And how often did the answer appear at the wrong time..."
+    },
+    "14": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Change focus.\nOne turn of attention – and what seemed hopeless no longer weighs so heavily."
+    },
+    "15": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Acknowledge that I cannot.\nThis is not a defeat. It is maturity. Being honest with yourself: right now – I cannot..."
+    },
+    "16": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Believe in myself.\nYou have already been your own support. You just, perhaps, didn't notice it..."
+    },
+    "17": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Acknowledge that time belongs to me.\nYou are no longer obligated to live by externally imposed rhythms. This is your time..."
+    },
+    "18": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Acknowledge fatigue.\nYou can be strong. For a long time. But sometimes the bravest step is to stop..."
+    },
+    "19": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Restore freedom to the body.\nYour body is not guilty. It is not obligated. It should not meet expectations..."
+    },
+    "20": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Say “NO”.\nIt doesn't mean becoming rigid. It means – protecting. Your body. Your time. Your space..."
+    },
+    "21": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Finish the unfinished.\nSome stories have been open for too long. They prevent you from moving..."
+    },
+    "22": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Cope with the wave.\nSometimes it hits. Suddenly. Without warning. But you – are not the wave. You are the shore..."
+    },
+    "23": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Feel grounded in the body.\nThe body remembers even what the mind has forgotten. And when everything is shaky, it can become your earth..."
+    },
+    "24": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Stay in my truth.\nEven when it's uncomfortable for others. Even when the fear of losing connection arises..."
+    },
+    "25": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Name what is.\nWhen everything inside is shifting – words give form..."
+    },
+    "26": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Choose my own pace.\nYou can slow down. And you can speed up. But only when you feel: this is my tempo..."
+    },
+    "27": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Hear myself.\nSometimes we think so loudly that we forget to listen..."
+    },
+    "28": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Stay in touch with myself.\nThe world is noisy. People pull. Circumstances demand. But there is a place inside you where it is quiet..."
+    },
+    "29": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Clear space.\nLetting go is not a loss, it's an invitation to the new. You have the right to do this."
+    },
+    "30": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Let go of control.\nAre you tired of keeping everything under control? What if you allowed yourself to loosen your grip a bit..."
+    },
+    "31": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Give a name to feelings.\nWhat is unnamed lives in the shadows and often controls you, even if you don't realize it..."
+    },
+    "32": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Let in changes.\nChanges don't always bang on the door. Sometimes they stand quietly to the side, waiting for permission..."
+    },
+    "33": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Feel the boundary between myself and others.\nThere is you and there are others. And this difference is not a threat. It's a way to preserve yourself..."
+    },
+    "34": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Accept support.\nIt happens that a hand has been extended for a long time. You were just looking the other way..."
+    },
+    "35": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Find inner support.\nYou were looking for support in others. In words, in actions, in glances..."
+    },
+    "36": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Choose a new response.\nYou used to react habitually. Automatically. But what if today – it's different..."
+    },
+    "37": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Change perspective.\nYou've been looking at it for so long that you no longer see anything new..."
+    },
+    "38": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Find balance.\nPerhaps right now you will remember how easy it is to lose yourself when you want to keep up with everything..."
+    },
+    "39": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Hear another person.\nPerhaps someone nearby has been trying to say something important for a long time..."
+    },
+    "40": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Accept difference.\nNot everything has to be understandable, similar, or comfortable. People are different..."
+    },
+    "41": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Allow myself pleasure.\nYou have a right to pleasant things. Not as a reward. Not after achievements. Simply because you are alive..."
+    },
+    "42": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Stop.\nHow much longer can you run without knowing where? And how often did the answer appear at the wrong time..."
+    },
+    "43": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "See reality.\nNot the one created by fears. And not the one covered up by hopes. But the real one..."
+    },
+    "44": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Restore energy.\nYou gave a lot, and maybe didn't even notice how you lost a part of yourself..."
+    },
+    "45": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Feel what truly hurts.\nYou are used to suppressing it. Switching attention. Pretending that 'everything is fine'..."
+    },
+    "46": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "React as I can.\nYou have the right not to know what to say. You have the right to be silent. To cry. To freeze..."
+    },
+    "47": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Return to myself.\nYou might have drifted away. In tasks, in relationships, in attempts to be correct..."
+    },
+    "48": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Trust who I am.\nYou've doubted so many times, and so often looked for external confirmation..."
+    },
+    "49": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Be present with myself.\nYou were present for others. A lot. Sincerely. What if today is your turn?.."
+    },
+    "50": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Choose differently.\nYou can. Even if you chose differently before. Even if it seems like it's too late..."
+    },
+    "51": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Trust the process.\nYou don't need to know everything in advance. Sometimes the answer only comes when you stop seeking it with tension..."
+    },
+    "52": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Endure the silence.\nSilence can be frightening. It seems like emptiness. But it is in the silence that meaning is born..."
+    },
+    "53": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Feel the earth beneath my feet.\nWhen thoughts are flying, when everything is shaky – remember your feet..."
+    },
+    "54": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Feel myself in my body.\nYour body is not just a shell. It is the space where you live..."
+    },
+    "55": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Allow myself a pause.\nYou have the right not to be effective. Not to answer. Not to decide..."
+    },
+    "56": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Give myself space.\nYou are used to narrowing yourself under circumstances, expectations, roles..."
+    },
+    "57": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Leave myself in peace.\nYou have done enough. You analyzed. Corrected. But what if today you just let go?"
+    },
+    "58": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Start from the beginning.\nStart not from zero, but with experience. With a new sense of self."
+    },
+    "59": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Accept ambiguity.\nThe world is neither black nor white. Feelings are mixed. Choices are imperfect..."
+    },
+    "60": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Be in the moment.\nThe past is over. The future has not yet arrived. But you are here. Right now..."
+    },
+    "61": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Express the truth.\nThe truth is not always loud. And not always convenient. But it is yours..."
+    },
+    "62": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Step out of the struggle.\nYou can fight all your life – for love, for a place, for the right to be. But what if enough is enough?"
+    },
+    "63": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Feel what I truly want.\nYou have long lived by the desires of others. Expectations. Rules. What is your soul asking for?"
+    },
+    "64": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Let in joy.\nJoy is not always grand. Sometimes it's in the small things. In the sunrise, in a cup of tea, in silence..."
+    },
+    "65": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Remember my right.\nYou have the right to be. You have the right to feel. You have the right to choose..."
+    },
+    "66": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Heal the trauma.\nYou cannot ignore a wound, hoping it will disappear on its own. You need to work with it..."
+    },
+    "67": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Accept what is.\nSometimes the fastest way forward is to stop fighting reality. Acknowledge that this is the way it is..."
+    },
+    "68": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Create a ritual.\nRituals provide a sense of security and structure. This is your anchor in a turbulent world..."
+    },
+    "69": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Allow myself to be imperfect.\nImperfection is not a flaw. It is a living space for growth..."
+    },
+    "70": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Remember the value of time.\nYour time is your life. You have the right to spend it on what is truly important..."
+    },
+    "71": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Restore connection.\nYou might have lost connection with what you love, with those who love you..."
+    },
+    "72": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Take care of myself.\nYou are your most important resource. And if it's depleted, then what's next?.."
+    },
+    "73": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Recognize my path.\nYou don't have to follow everyone. Your destiny is unique."
+    },
+    "74": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Feel the inner silence.\nSilence is not emptiness. It is the space where you hear your true voice."
+    },
+    "75": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Trust my intuition.\nYour inner knowledge is the most accurate compass. Learn to hear it."
+    },
+    "76": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Take responsibility.\nNot for everything. But only for your decisions, your feelings, your actions."
+    },
+    "77": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Find my strength.\nIt has always been with you. Perhaps it was just hidden under fear."
+    },
+    "78": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "Make a choice.\nThere is no right or wrong. There is what moves you forward, and what holds you back."
+    },
+    "79": {
+      "name": "Right now, it's important for me to...",
+      "descriptions": "See the meaning.\nEven when everything around seems like chaos, you can find the thread that leads to the light."
+    }
+  },
+  "vadaram": {
+    "1": {
+      "name": "Penetration into the essence of things. More than depth. Clear peace",
+      "descriptions": "Groundedness.\nStability, peace, and self-confidence.\nDeep knowledge of all processes.\nObservation of life events from silence.\nAction based on impulse."
+    },
+    "2": {
+      "name": "Initiation into Womanhood. Talents and Gifts. Inner confidence and core",
+      "descriptions": "Transmission of knowledge.\nAttention and wisdom.\nThe laws of the universe in the palm of your hand.\nGenerosity and relaxation.\nTransmission.\nTransition to a new level thanks to the participation of the teacher-guide's personality.\nInitiation."
+    },
+    "3": {
+      "name": "Gentle approach to everything. Carefulness towards self and the World. Fluidity and smoothness",
+      "descriptions": "I charge my water with words of love and thoughts of kindness.\nI manage the 'day' with attention to details and 'swim' towards my goals, gently, with anticipation and pleasure, moving towards them, making inconspicuous but constant efforts."
+    },
+    "4": {
+      "name": "The joy of being in a pair. Enjoyment of the joint dance",
+      "descriptions": "Vivid emotions of the present moment!\nYou are here!\nYou simply exist - this is survival!\nTo bathe in this ocean of happiness!\nTo fly on the wings of inspiration and faith.\nTo thank the Universe endlessly.\nTo rejoice endlessly, seeing an embodied particle of God in the Beloved!!!"
+    },
+    "5": {
+      "name": "Fulfillment of external obligations and following the heart's call. Duty is God. Fulfillment of responsibilities is a sacred ritual",
+      "descriptions": "Every action can be turned into a sacred act, internally dedicated to the Higher Self.\nEven the most boring work becomes an act of Love and immersion in mindfulness if it is performed with attention and love.\nOur everyday duties are an opportunity to serve this World.\nLove and training of consciousness."
+    },
+    "6": {
+      "name": "Freedom from prejudice. Choosing internal authorities",
+      "descriptions": "The Great Call of the soul.\nThe ability to discard and recognize everything that hinders the Path.\nTo hear hints.\nTo move by signs.\nTo act from response.\nTo choose freedom and uncertainty.\nTo conquer with faith."
+    },
+    "7": {
+      "name": "Family hierarchy: earthly and heavenly. Fulfillment of duty",
+      "descriptions": "Every family member has their roles.\nTo be in their place.\nTo respect the elders.\nTo know boundaries.\nTo feel measure.\nTo rejoice in moments spent together.\nTo remember that the heavenly is a projection of the earthly."
+    },
+    "8": {
+      "name": "Reaching a New Level. Courage",
+      "descriptions": "Asking yourself questions is the basis of movement on the Path.\nCourage to hear the answer.\nWhat does my heart want?\nAm I ready for changes?\nWhat beautiful things can I do for the people around me and for all humanity?\nHow to become even more loving?\nHow to help the body be healthy and strong?\nBy asking questions, observe the birth of answers inside and even outside."
+    },
+    "9": {
+      "name": "Love, present in everything. Granting abundance",
+      "descriptions": "Everything is moved by You, Love!\nYou are the source of well-being.\nYou are the Cause of the unconditional internal and external.\nYou give strength and inspiration for accomplishment!\nYour support is priceless."
+    },
+    "10": {
+      "name": "Multitasking. Vibrancy and fullness of every life cycle. Confidence in the correctness of the choice made",
+      "descriptions": "Manifestation and success in different areas of life.\nSkillful switching from one activity to another.\nFrom rest to intense load.\nCorrect application of advantages and skillful dedication of them to God.\nAct bravely in decision-making.\nBe generous and supportive.\nSuccess in all endeavors.\nProductivity and a series of internal and external victories."
+    },
+    "11": {
+      "name": "Trust in what is happening. Everything is for the good. Stopping to reboot the systems",
+      "descriptions": "Sometimes immobility is a gift.\nSimply being without entertaining communication, hustle, or deeds.\nJust breathe, dream, reflect, plan a prayer of thanks.\nDisconnect from the world to consciously channel the messages of the Spirit through yourself."
+    },
+    "12": {
+      "name": "Abundance. Allowance. The ability to adequately assess and act consciously",
+      "descriptions": "Wherever you look - there are gifts and opportunities everywhere.\nOpen up to this ocean!\nSurrender to the beauty of the Event Stream!\nEverything is for you!\nBy the right of your birth.\nVibrant colors of life."
+    },
+    "13": {
+      "name": "Greatness and awareness of one's Mission on Earth. Connection with the Whole",
+      "descriptions": "All great Souls stand behind me if I have given my life to God.\nI am never alone.\nThe wisdom of the ages is with me.\nThe experience of humanity is with me.\nWithin me is a challenge to new horizons.\nAll necessary knowledge is already within me.\nI give my love.\nI radiate gratitude."
+    },
+    "14": {
+      "name": "Commonality of interests and views. Unidirectional focus. Gracious company",
+      "descriptions": "The power of unity.\nMultiple amplification of energies in joint movement.\nSupport of loved ones.\nCollective work for the good of the World.\nSeeing God in everyone and help from a pure heart."
+    },
+    "15": {
+      "name": "To be a muse for the Creator. To be His life-giving spring",
+      "descriptions": "To nourish the Valuable with energy.\nTo fill the True with strength.\nTo be, not to seem.\nTo inspire with invisible emanations."
+    },
+    "16": {
+      "name": "Healing energies. Health and purity",
+      "descriptions": "With purity of thoughts, I cleanse and heal myself and others.\nI channel transformational flows through myself for healing on all levels.\nI bravely go where it is scary.\nI habitually give and thank.\nI share generously.\nMy source is limitless.\nThe desire to help, to serve guides me."
+    },
+    "17": {
+      "name": "Acquaintance with the world of wonders. Small - in the big, big - in the small",
+      "descriptions": "Stop and receive the gift of inner silence.\nGod speaks through beauty.\nFind time to become a small child again.\nWith wide-open eyes.\nWho is in loving, invisible embraces and is in no hurry.\nTo be with oneself.\nTo be saturated with beauty.\nTo see it everywhere."
+    },
+    "18": {
+      "name": "Mistress of life. Order in everything. Structure. Inner core",
+      "descriptions": "Building, planning life processes.\nDelegation - action through others.\nInvisible management of flows.\nAdherence to the logic of all processes.\nRoyal demeanor.\nResponsibility for others.\nCalmness and support for the entire environment."
+    },
+    "19": {
+      "name": "Enthusiasm. Immersion in the process",
+      "descriptions": "The wave carries me, and I don't even have time to think and doubt.\nEverything happens by itself.\nI act, forgetting about myself.\nI am totally immersed in the process and thrive in this game.\nThere is everyone and there is no me.\nHappiness to be in the moment.\nFullness of life."
+    },
+    "20": {
+      "name": "Greatness, modesty. Power is aimed at serving people. Grace and Compassion",
+      "descriptions": "Opportunity to serve.\nUsing resources for the common good.\nBlessing of deeds.\nThe more you do for the world, the more your heart is filled with love and gratitude.\nVision of the Divine in every creature.\nHealth on all levels."
+    },
+    "21": {
+      "name": "Revelation. New outlook. Freshness of feelings",
+      "descriptions": "Always new joy.\nExperience life, as if for the first time.\nSurprise.\nAllowing masks to hide fragility and sound with the highest notes.\nMystery."
+    },
+    "22": {
+      "name": "Nourishing the invisible roots with the energies of the Earth. Natural support",
+      "descriptions": "Physical and mental connection with Nature.\nEntering meditative trance states by contemplating blossoming life.\nPersonal corners of power in nature.\nNatural sources of strength for everyone.\nExperiencing Unity with the whole world.\nFrom trance, influencing the events and realities of one's life."
+    },
+    "23": {
+      "name": "Creativity of life. Multifaceted magic of creation from a dream. Filling reality with colorful details",
+      "descriptions": "Notice the magic everywhere.\nBe a magician in a world full of wonders.\nThis is the choice of the soul – this is reality.\nBeing on Paradise planets here, on Earth, thanks to the absence of jealousy, separation, envy.\nJoy for the success of others.\nWeaving lace."
+    },
+    "24": {
+      "name": "Your strength is in your ability to admit your weakness. Strength is in trusting that all your prayers are always heard and supported",
+      "descriptions": "Admit your imperfection - unawareness, ignorance, inability - and gain powerful support from the entire Universe!\nThe Divine Mother is embodied in every earthly woman.\nInner and outer reverence.\nNature, as a manifestation of the Goddess.\nCommunication with her is an opportunity to be nourished and grow beyond yourself."
+    },
+    "25": {
+      "name": "Beauty of events. Timeliness. Givenness. Responsibility for the creation of one's reality through faith, thoughts, vibrations",
+      "descriptions": "Everything has its appointed time.\nFulfillment of agreements.\nUnexpected joy.\nAdmission of one's ignorance in many areas of life.\nSurrender oneself to the higher flow!\nTo the Guide.\nAbsence of worries and anxieties."
+    },
+    "26": {
+      "name": "I am a child in the Divine hands. I am so safe and warm",
+      "descriptions": "We constantly play tricks in life, but the Divine Mother never stops nurturing and caring for us, no matter what we do.\nHer love forgives endlessly.\nShe believes in every one of her children, keeps the initially written and embedded to manifest at the right time.\nShe knows this time, and patiently, with love, awaits our awakening."
+    },
+    "27": {
+      "name": "Care for everyone is born from an overflowing, healed heart, capable of giving generously",
+      "descriptions": "Giving in love without expectations will never bring fatigue.\nIt is one, you will not diminish it.\nEveryone is a Source of love and happiness.\nDiscover this spring.\nFill yourself and be an inspiration to others.\nGrace, manifested on all levels of matter, thoughts, and feelings.\nMaterialization and realization of all intentions and needs for the good of all."
+    },
+    "28": {
+      "name": "Safe journeys. Enjoyment of the road",
+      "descriptions": "The new opens gradually, and boundless options unfold unhurriedly.\nManage large processes with ease.\nMove towards the unknown, trusting the inner impulse.\nKnow that you are being led.\nEnjoying, letting go of thoughts about the result.\nCarry the tidings of Goodness everywhere."
+    },
+    "29": {
+      "name": "Goodness in communication. Good thoughts. Deeds full of kindness",
+      "descriptions": "I know you.\nYou know me.\nFriendliness and acceptance.\nKindness on the level of thoughts, words, and deeds.\nTalk to people only about the good, and do not talk about others in their presence at all.\nTo be connected by the same tasks and motives.\nAmplify the collective creative Flow together."
+    },
+    "30": {
+      "name": "Sisterhood. Joint action in harmony",
+      "descriptions": "Understanding with a half-word.\nResonance and harmonious complement.\nTrust in the leader and the collective, acceptance and fulfillment of one's role as best as possible.\nBeing on both sides of the reaction and through music.\nSynchronization of life processes.\nThe joy of co-creation."
+    },
+    "31": {
+      "name": "Shining Femininity. Attractiveness. Motherhood, as part of the Path and female realization",
+      "descriptions": "Awareness and acceptance of one's natural beauty.\nFollowing the inner voice, clear vision of one's Path.\nRealization in all spheres of life, especially those related to children or creativity."
+    },
+    "32": {
+      "name": "Bearing the Treasure within",
+      "descriptions": "You protect creation with your state.\nYou fill it with goodness and grace.\nThis is what protection is.\nFragile, you possess great power.\nAll are your children.\nI feel your Love within.\nManifest through me!"
+    },
+    "33": {
+      "name": "Success in deeds. Heavenly patronage",
+      "descriptions": "We will go where others retreat, for the wings of the Seraphim are with us.\nWe sail past fatal danger, and therefore fate no longer controls us.\nWe know who is guiding us, and therefore we are stronger than any circumstances.\nWe are always in touch with our Guardians."
+    },
+    "34": {
+      "name": "Givenness. Acceptance. Peace",
+      "descriptions": "Active actions outside and stillness within.\nExternal inaction and active inner work.\nEverything in life is about Balance.\nAny stop leads to a fall.\nConstant spiritual aspiration.\nAction without the one who acts."
+    },
+    "35": {
+      "name": "Joint intention. Bringing the conceived into reality thanks to the power of Love",
+      "descriptions": "Magic and wonder beyond the perception of the mind.\nCo-creation with God!\nVictory over the fear of the unknown.\nA beautiful dance, so captivating, so playful!\nThe whole world dances and rejoices with us.\nWe are on the Peak of the World!\nWe are one with the Universe."
+    },
+    "36": {
+      "name": "Time to bloom. Time to fragrance. Time to enjoy oneself and life!",
+      "descriptions": "I am already beautiful and accept myself Whole.\nI value my peculiarities and their strangeness as unique gifts.\nAnd I live my role with dignity.\nI take everything from this world, I share boundless gratitude with the World and feel its love."
+    },
+    "37": {
+      "name": "Touch of magic. Life in a fairy tale",
+      "descriptions": "The truth is that we already live in a Fairy Tale, in our dream, which we constantly correct with our thoughts and feelings.\nThe beauty and abundance of reality adjusts to our wishes...\nAnticipation of miracles."
+    },
+    "38": {
+      "name": "Heartfelt repentance. Magnanimity and mercy. Non-judgment",
+      "descriptions": "Shifting attention from the external to the internal.\nTransforming oneself through compassion for all living beings.\nBoundless source of Love.\nTrue faith through healing the soul's wounds.\nContrition and letting go of everything done and undone.\nPeace and surrender to God."
+    },
+    "39": {
+      "name": "Simplicity and balance. From complex to simple",
+      "descriptions": "The long-awaited meeting happens in clarity.\nA new movement is born in wholeness.\nAnd everything is in its place!\nAgain.\nFor the good of all!\nTo the glory of God!\nRemember: where there are too many questions, doubts, a lot of energy flows away.\nWhere it is simple and clear, the Truth blossoms."
+    },
+    "40": {
+      "name": "Unwavering peace and inner self-worth. Respecting oneself and one's boundaries",
+      "descriptions": "Acknowledging one's role as maximally beautiful.\nIt is impossible and unnecessary to compare oneself with anything.\nThe inherent value of every being.\nSelf-knowledge and fulfilling one's mission is defeated by self-acceptance and condemnation.\nVictory over pettiness.\nLarge-scale thinking."
+    },
+    "41": {
+      "name": "Dreams of the Beautiful. Reflections. Transformational Keys",
+      "descriptions": "To view the world through peaceful contemplation. To find time for solitude and self-acquaintance. The sweetness of life in the small things and the thought of how blessings will serve as what is realized from what is embedded there. Reprogramming. A conscious encounter with one's destructive programs and their complete transformation through the energy of grace."
+    },
+    "42": {
+      "name": "Vibration. Healing Sound. Conscious Formation of Images and States",
+      "descriptions": "Every word carries a vibration that influences our lives. To liberate oneself through sound and transform reality. To express oneself to the world through voice. To enjoy melodic speech in every moment of communication and grace."
+    },
+    "43": {
+      "name": "Conscious Creation of Reality through Thought-Forms and States. Devotion to Higher Ideals. Concentration on the Divine",
+      "descriptions": "The vibration of White Light. Belief in the Truth and serving it on the level of thoughts as continuous remembrance of the Divine. Abiding in Him. Conversation with Him. We nourish ourselves, we create ourselves, we discern various thought-forms. What they are, what we are. We create ourselves in unity. Divine success, beauty, health, love, trust, by ceasing to feed thoughts about everyday trifles and worries."
+    },
+    "44": {
+      "name": "The Value of Each. Inner Radiance",
+      "descriptions": "To see the true essence of things through the forms and pictures of what is happening. To concentrate on the most sacred. Only to think, speak, and listen about it. Inner harmony. To avoid vanity and celebrations, choosing solemn solitude."
+    },
+    "45": {
+      "name": "Royal Union. Total Acceptance without the Desire to Redo. Faith in a Loved One",
+      "descriptions": "Wholehearted acceptance of life, a person, or a situation with all its facets, especially those that contradict interests. Filling with meaning. Finding the positives in all of life's vicissitudes. The triumph of balance."
+    },
+    "46": {
+      "name": "Knowledge Across Distance. Prayer for All Sufferers. Attention to the Great and the Small",
+      "descriptions": "To give oneself entirely. Who are you and how do you serve? True heart. Genuine concern, compassion, and mercy. Equal service to all unconditionally, selfless fulfillment of the Call of one's heart. Forgetting oneself."
+    },
+    "47": {
+      "name": "The Greatness of Woman. Manifested Matter. The Power of Loving Beauty",
+      "descriptions": "You disarm. At your feet are all the treasures and riches of the World. You are multifaceted good. Transformations begin next to you. Ideas and inspiration overflow! You are in our cell. Possessed by the Spirit! You are Life itself and its ceaseless development."
+    },
+    "48": {
+      "name": "Unconditional Love only gives, expecting nothing in return. In it – only joy, only a bright perception of reality",
+      "descriptions": "Satisfaction and pure joy without desires for any benefit and expectation of receiving something in return. Giving without looking back, just so, without requests, without obligations. Out of love. Doing lovingly. Abiding in the rays of true love, not remembering oneself and not thinking about oneself too much."
+    },
+    "49": {
+      "name": "Gazing into one's weaknesses. The resource of our Power is hidden there. What gifts do we not see and reject?",
+      "descriptions": "The power of habit forces one to walk in the same circle, to desire the same vibrations. Through calming and humility to rise into the space of silence, reflection. Consciously surround oneself with thoughts and people of a higher order. Make efforts. Call for help. Forgive oneself, others. Continue the path."
+    },
+    "50": {
+      "name": "Inspirer. Filled with peace, I bring harmony to the World",
+      "descriptions": "I radiate thoughts of beauty into the World. They, in turn, create reality around me. Paradise on earth, and everyone has the opportunity to connect with my reality. I inspire by my own example and instill hope for an even more beautiful future, overflowing with gifts for this World. I am loved by love, which I generously share. The source of inner bliss feeds my thoughts, words, and deeds."
+    },
+    "51": {
+      "name": "Fulfillment of Agreements. Accomplishment of the Planned at the Right Time",
+      "descriptions": "We have waited for this moment and, finally, we can realize what was intended. We will pass through the walls of doubts and fears to realize our goal. To manifest the highest beauty of the Spirit in the world through earthly form. We are children of Love. We are the beloved of God. Our attitude is to conquer, playing and rejoicing!"
+    },
+    "52": {
+      "name": "Nature as a Teacher. The Magic of the Earth and the Guardian Spirits",
+      "descriptions": "Find your place of power. Abide there, make friends with it. It will be willing to share much in response to unconditional love, softness, tenderness. The space will ring and heal all your bodies. Accept these resources and this knowledge with gratitude."
+    },
+    "53": {
+      "name": "Learning New Things. Going Beyond, Uniting Figurative Thinking, Flow, and Logic",
+      "descriptions": "Constantly growing beyond oneself. Surrounding oneself with new interests, impressions, travels. The Science of Imagery. What images do we transmit, what are we attracted by, and why? Asking questions. Expanding the boundaries of perception."
+    },
+    "54": {
+      "name": "The Importance of Choosing Your Environment. Your Own Transformations Affect Those Nearby and Even Those Far Away",
+      "descriptions": "An environment selected in accordance with inner ideals, values, and goals. Everyone encountered is a messenger, a teacher. Will he reflect you, tear your consciousness away, reach your demons, become a consolation and support, reveal you as the brightest, or will he be silenced forever? \"God speaks\". Listening to the World, not ceasing to hear the impulses of one's Heart. A desire for good and realization for all."
+    },
+    "55": {
+      "name": "Nourishing Ideas. Germination of Habit-Seeds",
+      "descriptions": "Our thoughts form a field of vibrations that influences our behavior and reactions. Here and now, we are forming our Path. Regular actions create habit programs. Which help or hinder on the Path. More important: why do I choose to do exactly this? Where is my attention and what am I nourishing now? Do I want these very thoughts to grow into a large tree? Where does the energy go?"
+    },
+    "56": {
+      "name": "Games of the Spirits. Another Reality. Rebirth",
+      "descriptions": "Internal changes are inevitable. We are here to change our destiny. We can be reborn every second. How much we do not know about ourselves. Having united with our divine nature. Spirits come for this. A feeling of colossal harmony and boundless peace and satisfaction."
+    },
+    "57": {
+      "name": "Healing Trance. State without Mind. Pure Consciousness and Self-Acceptance",
+      "descriptions": "To abide beyond desires. To allow life to simply flow through you. To love easily, to love work, to love events, to love people. In everything, the Invisible is revealed. This is magic and Her dreams within us. Everyone possesses their own uniqueness. To recognize, accept, realize the value of their peculiarities: character, appearance, family."
+    },
+    "58": {
+      "name": "Treasure of the Heavens. Perceiving everything that comes into life as a gift. The ability to see beauty in everything",
+      "descriptions": "Celebrating life in its constant creativity! Enthusiasm for contemplating the beautiful. A careful, tender attitude toward everything living and non-living. Inner radiance. Dawn and realization. Absorbing all the beauty of the World. Joy from the variety of forms and manifestations."
+    },
+    "59": {
+      "name": "Blessing and Pulsation of Life. Readiness. Fullness. Agreement of All Sides",
+      "descriptions": "Life manifests from nothing. A miracle – the fruits of the Spirit's action on Earth. Maternal energy. Nourishing the fruit and the project. Concentration of energy in one place. Transformation and magic. The power of pure intentions."
+    },
+    "60": {
+      "name": "Fertility and Productivity. Proper Use of Your Abilities. Self-Realization",
+      "descriptions": "Fulfilling duty in clarity and purity. Directed attention and daily, constant work in joy. Heroism and satisfaction from both the process and the contemplation of the fruits of deeds. Fullness and generosity."
+    },
+    "61": {
+      "name": "Reclaiming One's Energy. Untangling Karmic Knots. Victory over Outdated Beliefs",
+      "descriptions": "Mutual Liberation. A sigh of relief and inner jubilation! Sincere gratitude to all participants of the game. Completion of debts. Only the inner Imperative remains. Anticipation of victory. Healing and delight. The right to a new life and change. Confidence in one's inner truth."
+    },
+    "62": {
+      "name": "Clairaudience. Clairvoyance. Speaking from the Flow",
+      "descriptions": "You know how to see. You know how to listen. You know how to speak in such a way that it will be remembered for a lifetime and beyond. Who are you and where does this knowledge come from within you? Awaken them in me! Resurrect my memory! Return the primordial, divine nature to the world! From now on and forever, I possess full knowledge so that everything around me flourishes!!!"
+    },
+    "63": {
+      "name": "Nourishing Each Other with Faith and Knowledge. Admiring the Beloved",
+      "descriptions": "Knowing God in the other. Touching the Divine with reverence every day. Nourishment. Delight. Admiring the \"beauty\" of the World by the Beloved, manifested on Earth! Tasting the Truth. Enjoying the gifts. Penetrating into the depths. Understanding the world of the other."
+    },
+    "64": {
+      "name": "Heavenly Secrets. Falling in Love with the Spirit. Acquiring Gifts",
+      "descriptions": "Sacred friendship. The soul's desire with all its being to realize the intention of its Spirit on Earth. Sensitive attention to the inner voice and the plans of the Gods on the Path. Keeping one's plans and ideas secret for a while. Nourishing them with one's energy and attention."
+    },
+    "65": {
+      "name": "Revitalization of the Everyday. Celebration. Realization. Unpacking Gifts",
+      "descriptions": "We look to the future boldly, without fear. We color the future with our inner anticipation of miracles! The Child and the Eternal inner Mentor enjoy each other's company, not pulling in their own direction. Only together, relying on discipline, order, schedule, regularity on one side, and on spontaneity, creativity, improvisation on the other, do we transform reality into a festival-extravaganza!"
+    },
+    "66": {
+      "name": "Beginning and End. Perfection of the Game",
+      "descriptions": "To find pleasure in simple actions. To live every day in the joy of work. To find something to be grateful for in every moment and phenomenon. To be a source of positive vibrations for others. To live, playing! In tireless creativity and fulfillment of duty."
+    },
+    "67": {
+      "name": "Life on High Vibrations. Living True Values in Life. Moving into the Depth. Trust",
+      "descriptions": "Only from a state of fullness and self-sufficiency can we share. Creativity of inner Love. We transmit it to the World. Absence of unrealized desires. Inner satisfaction from everything that is happening. Acceptance of everything with gratitude."
+    },
+    "68": {
+      "name": "Fortitude and Confidence in One's Victory. Who, if not I? This Moment is Ideal!",
+      "descriptions": "Acquisition of inner strength. Setting the mind for change and self-improvement. Controlling resources. Precisely set vector of movement."
+    },
+    "69": {
+      "name": "Gentle Acceptance of the New Without Denial. Giving Oneself Time. The Breath of the Clan (Rod). Manifestation",
+      "descriptions": "Everything replaces everything else. To be a conductor for different processes and energies. To invite a new life. To accept gently, to preserve, not to rush. To allow processes to happen naturally. To learn, acquire knowledge, and apply it. To accept new energies with respect."
+    },
+    "70": {
+      "name": "Vulnerability and Subtlety. Sweetness and Tenderness. Care for the Inner Child",
+      "descriptions": "To guard and value the sacred. To dwell in an inner happiness and carelessness that is independent of anything. Directed rays of love. Support and caring attitude towards children. Shine of kindness. Blessed work of the educator."
+    },
+    "71": {
+      "name": "Immersion in exciting life Flows! Shocking delight! Diving into the abyss of possibilities. Power",
+      "descriptions": "Courage is to contribute with the entire Universe! We will go into this process boldly and devotedly. We transform pain into grace. We heal past traumas, acknowledging them and not being afraid to break the boundaries. We suppress doubts with our faith in the best! We nourish our strength, not weakness. We are warriors of Light!!!"
+    },
+    "72": {
+      "name": "Manifestation of Beauty into the World. Art that unites everyone. Harmonizing creativity",
+      "descriptions": "In the union of different elements and the collaboration of energies, beauty is born. Observing miracles on the fingertips. Listening to the voices of the elements. Uniting opposites to create something unique. Connecting the unconnected for the greater good."
+    },
+    "73": {
+      "name": "Determination to heal, to free oneself from the obsolete and burdensome. Healing. Playful Shamanism",
+      "descriptions": "Penetration into the essence of the problem physically and at the level of the mind, and its decisive elimination. Resorting to the help of the knowledgeable. Trust and surrender in gratitude. Mentorship. The power of providence. To be in the right place at the right time."
+    },
+    "74": {
+      "name": "Inner sun. Letting go of intention. Relaxation",
+      "descriptions": "I have done everything possible, and now all that remains is to trust what is happening. To breathe deeply. To feel the warmth."
+    },
+    "75": {
+      "name": "Tuning into God's wave. Even a single thought of God immerses one in the Bliss of His invisible Presence",
+      "descriptions": "Just freeze. His name, and His Face, sounds in every moment, and His Face is in everything. Abide in Him, contemplating the most beautiful thing a person can experience on Earth, but it is also the result of spiritual efforts, the striving of the soul, and concentration. Sincere efforts will always be heard."
+    },
+    "76": {
+      "name": "Tender Love of the Mother and Forgiveness. Pure joy and a childlike, carefree perception",
+      "descriptions": "Someone is invisibly always near. I trust providence. Invisible helpers support me in every new exam on earth. I am never alone. They nourish me, they always support me. I know that the mighty power of love protects me."
+    },
+    "77": {
+      "name": "Transition. Calling for help. Mother's Support",
+      "descriptions": "We need a guide. We need protection in this raging ocean of passions. You are the Mother, our protection! Reveal Your Face! Manifest Yourself, so that we may fully know You, and not be able to doubt. You are all our Life. Your invisible presence makes our Path bright and joyful!"
+    },
+    "78": {
+      "name": "Protective power of love. Prayer for loved ones. Patronage of the Higher Forces in travel",
+      "descriptions": "Wherever your Paths may lead you, my love is with you everywhere. It will guide you and give you knowledge and peace in the most difficult situations. For this love, there are no distances. It knows all your thoughts and heart's intentions. No enemy will break through, no element will overtake."
+    },
+    "79": {
+      "name": "Self-Understanding. Choosing Priorities",
+      "descriptions": "The nature of the soul is divine and pure. The crystal surface of the water. Birds soaring into the sky—this is our beautiful essence. Conscious construction of the Path. Breadth of vision and simplicity."
+    },
+    "80": {
+      "name": "When you love – you are protected. Faith strengthens knowledge. Knowledge strengthens faith",
+      "descriptions": "To feel Peace from the invisible presence of the Holy Spirit. You are where you should be, and the Universe will guide and turn you into the ocean of life according to the best possible scenario. Don't worry about anything, just do your thing. Become aware of existence through meditation and dedicate vibrations through prayer. Trust. Accept. Let it flow."
+    }
+  }
+}
+
+
