@@ -1,12 +1,11 @@
-
 import asyncio
 from utils.logger import AppLogging
 from aiogram import Bot, Dispatcher
 
-
 from setup import preload_card, setup_dispatcher
 
 from config.settings import BOT_TOKEN
+from utils.server import start_server
 
 logger = AppLogging.get_logger()
 
@@ -22,7 +21,7 @@ async def main():
 
     await preload_card()
     await setup_dispatcher(dp)
-
+    await start_server()
     logger.info("✅ The bot is starting")
     await dp.start_polling(bot)
 
