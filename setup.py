@@ -10,6 +10,7 @@ from bot.handlers.cards_family_advice import router as card_family_advice
 from bot.handlers.birth_date_calendar import router as birth_date_calendar
 from bot.handlers.cards_obusha import router as cards_obusha
 from bot.handlers.cards_vadaram import router as cards_vadaram
+from bot.handlers.admin import router as admin_message
 
 from aiogram import Dispatcher
 
@@ -49,7 +50,7 @@ async def setup_dispatcher(dp: Dispatcher):
         dp.include_router(birth_date_calendar)
         dp.include_router(cards_obusha)
         dp.include_router(cards_vadaram)
-
+        dp.include_router(admin_message)
         logger.info("✅ All handlers registered")
     except Exception as e:
         logger.exception(f"❌ Failed to register handlers: {e}")

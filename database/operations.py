@@ -1,7 +1,6 @@
 from sqlalchemy import select
-from database.database import SessionLocal
-from database.models import User
-
+from .database import SessionLocal
+from .models import User
 
 async def get_or_create_user(telegram_id: int) -> User:
     async with SessionLocal() as session:
@@ -34,3 +33,9 @@ async def update_user(telegram_id: int, **kwargs) -> User | None:
             return user
         else:
             return None
+
+async def get_users_all() -> list[int]:
+    async with SessionLocal() as session:
+        result = await session.execute(select(User.telegram_id))
+        user_ids = result.scalars().all()
+        return user_ids

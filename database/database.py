@@ -1,4 +1,3 @@
-import os
 from sqlalchemy.ext.asyncio import create_async_engine, async_sessionmaker
 from database.models import Base
 from config.settings import DATABASE_URL
