@@ -2,28 +2,34 @@ from aiogram import Router, types, F
 from aiogram.exceptions import TelegramForbiddenError, TelegramBadRequest
 
 from config.settings import ADMIN_ID
-from database.operations import get_users_all
+from database.operations import get_users_all, update_user_last_message_id
 from bot.keyboards.inline import get_main_keyboard
+# ❗ ЗМІНЕНО: Припускаємо, що ви змінили цю функцію на try_delete_message
+from utils.message_utils import try_delete_message
 
 router: Router = Router()
 
 
 @router.message(F.from_user.id == ADMIN_ID)
-async def admin_message(message: types.Message, lang: str):
-    is_admin = message.from_user.id if message.from_user.id == ADMIN_ID else None
-    text = message.text if is_admin else None
-    users = await get_users_all()
+async def admin_message(message: types.Message):
+    users_data = await get_users_all()
     cnt = 0
-    for user in users:
+    for user_data in users_data:
+        recipient_id = user_data.telegram_id
+        if recipient_id == ADMIN_ID:
+            continue
         try:
-            if user != ADMIN_ID:
-                await message.bot.send_message(
-                    user,
-                    text,
-                    reply_markup=get_main_keyboard(lang)
-                )
-                cnt += 1
+            recipient_lang = user_data.language or "ua"
+            keyboard = get_main_keyboard(recipient_lang)
 
+            if user_data.last_message_id:
+                await try_delete_message(message.bot, recipient_id, user_data.last_message_id)
+            sent_msg = await message.copy_to(
+                chat_id=recipient_id,
+                reply_markup=keyboard
+            )
+            await update_user_last_message_id(recipient_id, sent_msg.message_id)
+            cnt += 1
         except (TelegramBadRequest, TelegramForbiddenError):
             pass
     await message.answer(f"✅ Successfully shipped {cnt} users.")

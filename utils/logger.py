@@ -28,4 +28,3 @@ class Singleton(type):
 
 
 class AppLogging(AppLogger, metaclass=Singleton): pass
-

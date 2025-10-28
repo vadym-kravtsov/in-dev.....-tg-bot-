@@ -34,8 +34,20 @@ async def update_user(telegram_id: int, **kwargs) -> User | None:
         else:
             return None
 
-async def get_users_all() -> list[int]:
+
+async def get_users_all() -> list[User]:
     async with SessionLocal() as session:
-        result = await session.execute(select(User.telegram_id))
-        user_ids = result.scalars().all()
-        return user_ids
+        result = await session.execute(select(User))
+        user_obj = result.scalars().all()
+        return user_obj
+
+
+async def update_user_last_message_id(telegram_id: int, message_id: int) -> None:
+    async with SessionLocal() as session:
+        result = await session.execute(
+            select(User).where(User.telegram_id == telegram_id)
+        )
+        user = result.scalar_one_or_none()
+        if user:
+            user.last_message_id = message_id
+            await session.commit()

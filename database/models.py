@@ -17,4 +17,4 @@ class User(Base):
     last_card_date: Mapped[Date | None] = mapped_column(Date, nullable=True)
     last_obusha_date: Mapped[Date | None] = mapped_column(Date, nullable=True)
     last_vadaram_date: Mapped[Date | None] = mapped_column(Date, nullable=True)
-    last_moon_date: Mapped[Date | None] = mapped_column(Date, nullable=True)
+    last_message_id: Mapped[int | None] = mapped_column(BigInteger, nullable=True, default=None)
