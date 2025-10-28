@@ -30,6 +30,13 @@ async def start_handler(message: types.Message) -> None:
     if user.last_message_id:
         await try_delete_message(message.bot, message.from_user.id, user.last_message_id)
 
+    sent_msg_with_keyboard = None
+
+    if user.birth_date and isinstance(user.birth_date,
+                                      date) and user.birth_date.month == today.month and user.birth_date.day == today.day:
+        if "birthday" in birthday_ids:
+            file_id = birthday_ids["birthday"]
+
     if user.language:
         sent_msg_with_keyboard = await message.answer(
             text=texts["menu"]["ua"]["main_menu_title"].replace("{name}", user_name),
