@@ -1,6 +1,6 @@
 from aiogram.exceptions import TelegramBadRequest
 from aiogram import Bot
-from logger import AppLogging
+from utils.logger import AppLogging
 
 logger = AppLogging.get_logger()
 
