@@ -68,5 +68,7 @@ class CardService:
     async def get_media_id_by_lang(cls, deck_name: str, card_number: str, lang: str):
         if deck_name not in cls._lang_media_cache:
             cls._lang_media_cache[deck_name] = {}
+        if lang not in cls._lang_media_cache[deck_name]:
             await cls._load_language_media_ids(deck_name, lang)
+
         return cls._lang_media_cache[deck_name][lang].get(card_number, None)
