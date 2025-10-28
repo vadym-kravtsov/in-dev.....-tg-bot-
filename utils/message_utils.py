@@ -2,7 +2,7 @@ from aiogram.exceptions import TelegramBadRequest
 from aiogram import Bot
 from logger import AppLogging
 
-logger = AppLogging().get_logger()
+logger = AppLogging.get_logger()
 
 
 async def try_delete_message(bot: Bot, chat_id: int, message_id: int) -> bool:
