@@ -23,11 +23,8 @@ async def preload_card():
 
     for lang in languages:
         try:
-            # ❗ 1. ЗАВАНТАЖЕННЯ КОЛОДИ 'obusha' (як у вас було)
             await CardService.get_card_descriptions("1", "obusha", lang)
 
-            # ❗ 2. ДОДАНО: ЗАВАНТАЖЕННЯ КОЛОДИ 'family_advice'
-            # Припускаємо, що cards_family_advice використовує карти з 1 по 80
             await CardService.get_card_descriptions("1", "family_advice", lang)
 
             logger.info(f"✅ Language {lang} loader")
@@ -45,7 +42,7 @@ async def setup_dispatcher(dp: Dispatcher):
         logger.exception("❌ The Middleware for callback not is registered ")
         raise
     try:
-        await reset_db_once()
+        await init_db()
         logger.info("✅ The database has been initialized")
     except Exception:
         logger.exception("❌ Failed to initialize database")
