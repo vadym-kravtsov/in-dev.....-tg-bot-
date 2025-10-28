@@ -19,8 +19,8 @@ async def main():
         logger.exception(f"❌ Failed to create bot {e}")
         raise
 
-    await preload_card()
     await setup_dispatcher(dp)
+    await preload_card()
     await start_server()
     logger.info("✅ The bot is starting")
     await dp.start_polling(bot)
