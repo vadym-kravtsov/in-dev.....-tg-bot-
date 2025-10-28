@@ -14,4 +14,6 @@ __pycache__/
 **/db.sqlite3
 
 #Config Token, API-keys
-config.py
+config.py/
+
+docker-compose.yml/
