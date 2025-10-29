@@ -2,12 +2,9 @@ from sqlalchemy.ext.asyncio import create_async_engine, async_sessionmaker
 from database.models import Base
 from config.settings import DATABASE_URL
 
-engine = create_async_engine(
-    DATABASE_URL,
-    connect_args={
-        "ssl": "require"
-    }
-)
+db_url = DATABASE_URL.replace('postgres://', 'postgresql+asyncpg://', 1)
+
+engine = create_async_engine(db_url)
 SessionLocal = async_sessionmaker(engine, expire_on_commit=False)
 
 
@@ -16,7 +13,6 @@ async def init_db():
         await conn.run_sync(Base.metadata.create_all)
 
 
-# ❗❗❗ RESET DATABASE
 async def reset_db_once():
     async with engine.begin() as conn:
         await conn.run_sync(Base.metadata.drop_all)
