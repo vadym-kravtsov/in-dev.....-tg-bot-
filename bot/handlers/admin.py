@@ -13,8 +13,10 @@ router: Router = Router()
 
 @router.message(F.from_user.id == ADMIN_ID)
 async def admin_message(message: types.Message):
-
-
+    logger.info(f"🔵 Admin triggered: {message.from_user.id}")
+    try:
+        users_data = await get_users_all()
+        logger.info(f"💾 Fetched {len(users_data)} users: {[u.telegram_id for u in users_data]}")
     try:
         users_data = await get_users_all()
         logger.info(f"💾 Admin: Fetched {len(users_data)} users for bulk sending.")
