@@ -30,7 +30,7 @@ async def start_handler(message: types.Message) -> None:
     if user.last_message_id:
         await try_delete_message(message.bot, message.from_user.id, user.last_message_id)
 
-    sent_msg_with_keyboard = None
+
 
     if user.birth_date and isinstance(user.birth_date,
                                       date) and user.birth_date.month == today.month and user.birth_date.day == today.day:

@@ -5,14 +5,23 @@ from config.settings import ADMIN_ID
 from database.operations import get_users_all, update_user_last_message_id
 from bot.keyboards.inline import get_main_keyboard
 from utils.message_utils import try_delete_message
+from utils.logger import AppLogging
 
+logger = AppLogging.get_logger()
 router: Router = Router()
 
 
 @router.message(F.from_user.id == ADMIN_ID)
 async def admin_message(message: types.Message):
 
-    users_data = await get_users_all()
+
+    try:
+        users_data = await get_users_all()
+        logger.info(f"💾 Admin: Fetched {len(users_data)} users for bulk sending.")
+    except Exception:
+        logger.exception("❌ CRITICAL ERROR: Failed to fetch users for admin message.")
+        await message.answer("❌ Error: Failed to fetch user list from database. Check Render logs!")
+        return
     cnt = 0
     for user_data in users_data:
         recipient_id = user_data.telegram_id
