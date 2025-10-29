@@ -1,6 +1,5 @@
-from aiogram import Router, types, F
+from aiogram import Router, types
 from aiogram.exceptions import TelegramForbiddenError, TelegramBadRequest
-
 from config.settings import ADMIN_ID
 from database.operations import get_users_all, update_user_last_message_id
 from bot.keyboards.inline import get_main_keyboard
@@ -8,45 +7,37 @@ from utils.message_utils import try_delete_message
 from utils.logger import AppLogging
 
 logger = AppLogging.get_logger()
-router: Router = Router()
+router = Router()
 
 
-@router.message(F.from_user.id == ADMIN_ID)
+@router.message()
 async def admin_message(message: types.Message):
-    logger.info(f"🔵 Admin triggered: {message.from_user.id}")
-    try:
-        users_data = await get_users_all()
-        logger.info(f"💾 Fetched {len(users_data)} users: {[u.telegram_id for u in users_data]}")
-    try:
-        users_data = await get_users_all()
-        logger.info(f"💾 Admin: Fetched {len(users_data)} users for bulk sending.")
-    except Exception:
-        logger.exception("❌ CRITICAL ERROR: Failed to fetch users for admin message.")
-        await message.answer("❌ Error: Failed to fetch user list from database. Check Render logs!")
+    if message.from_user.id != ADMIN_ID:
         return
+
+    users_data = await get_users_all()
+    logger.info(f"Fetched {len(users_data)} users")
+
     cnt = 0
     for user_data in users_data:
-        recipient_id = user_data.telegram_id
-
-        if recipient_id == ADMIN_ID:
+        if user_data.telegram_id == ADMIN_ID:
             continue
 
         try:
-            recipient_lang = user_data.language or "ua"
-            keyboard = get_main_keyboard(recipient_lang)
+            keyboard = get_main_keyboard(user_data.language or "ua")
 
             if user_data.last_message_id:
-                await try_delete_message(message.bot, recipient_id, user_data.last_message_id)
+                await try_delete_message(message.bot, user_data.telegram_id, user_data.last_message_id)
 
             sent_msg = await message.copy_to(
-                chat_id=recipient_id,
+                chat_id=user_data.telegram_id,
                 reply_markup=keyboard
             )
 
-            await update_user_last_message_id(recipient_id, sent_msg.message_id)
+            await update_user_last_message_id(user_data.telegram_id, sent_msg.message_id)
             cnt += 1
 
         except (TelegramBadRequest, TelegramForbiddenError):
             pass
 
-    await message.answer(f"✅ Successfully shipped {cnt} users.")
+    await message.answer(f"✅ Sent to {cnt} users")
