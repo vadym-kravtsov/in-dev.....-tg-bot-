@@ -4,7 +4,12 @@ from config.settings import DATABASE_URL
 
 DATABASE_URL = DATABASE_URL
 
-engine = create_async_engine(DATABASE_URL)
+engine = create_async_engine(
+    DATABASE_URL,
+    connect_args={
+        "ssl": "require"
+    }
+)
 SessionLocal = async_sessionmaker(engine, expire_on_commit=False)
 
 
