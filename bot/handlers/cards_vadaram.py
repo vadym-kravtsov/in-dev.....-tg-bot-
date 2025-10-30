@@ -16,7 +16,6 @@ logger = AppLogging.get_logger()
 with open("data/text_menu.json", "r", encoding="UTF-8") as f:
     texts = json.load(f)
 
-
 @router.callback_query(F.data == "vadaram_card")
 async def vadaram_deck_handler(callback: types.CallbackQuery, lang: str):
     await callback.answer()

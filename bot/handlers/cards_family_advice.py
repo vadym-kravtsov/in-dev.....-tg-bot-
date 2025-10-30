@@ -17,7 +17,6 @@ logger = AppLogging.get_logger()
 with open("data/text_menu.json", "r", encoding="utf-8") as f:
     texts = json.load(f)
 
-
 @router.callback_query(F.data == "family_advice")
 async def family_advice_handler(callback: types.CallbackQuery, lang: str):
     await callback.answer()

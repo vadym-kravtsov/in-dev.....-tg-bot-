@@ -25,7 +25,7 @@ async def birth_date_calendar_handler(callback: types.CallbackQuery, state: FSMC
     calendar = DialogCalendar(locale=system_locale, cancel_btn=cancel_text)
     markup = await calendar.start_calendar(year=1990)
     await state.set_state(UserStates.waiting_for_birth_date)
-    await callback.message.edit_text(text=texts["menu"]["en"]["choose_birth_date"], reply_markup=markup)
+    await callback.message.edit_text(text=texts["menu"][lang]["choose_birth_date"], reply_markup=markup)
 
 
 @router.callback_query(DialogCalendarCallback.filter(), UserStates.waiting_for_birth_date)

@@ -1,13 +1,10 @@
 import json
-from datetime import date
 from aiogram import Router, types
 from aiogram.exceptions import TelegramBadRequest
 from aiogram.filters import Command
 
 from bot.keyboards.inline import get_language_keyboard, get_main_keyboard
-# ❗ ІМПОРТУЄМО ФУНКЦІЮ ЗБЕРЕЖЕННЯ ID
-from database.operations import get_or_create_user, update_user_last_message_id
-# ❗ ІМПОРТУЄМО ФУНКЦІЮ ВИДАЛЕННЯ
+from database.operations import get_or_create_user, update_user_last_message_id, get_users_all
 from utils.message_utils import try_delete_message
 from utils.logger import AppLogging
 
@@ -25,17 +22,11 @@ router = Router()
 async def start_handler(message: types.Message) -> None:
     user = await get_or_create_user(message.from_user.id)
     user_name = message.from_user.first_name
-    today = date.today()
+    # keyboard = get_main_keyboard(user.language or "ua")
 
     if user.last_message_id:
         await try_delete_message(message.bot, message.from_user.id, user.last_message_id)
 
-
-
-    if user.birth_date and isinstance(user.birth_date,
-                                      date) and user.birth_date.month == today.month and user.birth_date.day == today.day:
-        if "birthday" in birthday_ids:
-            file_id = birthday_ids["birthday"]
 
     if user.language:
         sent_msg_with_keyboard = await message.answer(
@@ -43,6 +34,8 @@ async def start_handler(message: types.Message) -> None:
             reply_markup=get_main_keyboard(user.language),
             parse_mode="HTML",
         )
+
+        await update_user_last_message_id(user.telegram_id, sent_msg_with_keyboard.message_id)
     else:
         text = texts["menu"]["ua"]["choose_language"].replace("{name}", user_name)
         sent_msg_with_keyboard = await message.answer(

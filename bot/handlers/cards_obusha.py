@@ -5,7 +5,7 @@ from datetime import date
 from aiogram import F, Router, types, exceptions
 
 from bot.keyboards import inline
-from database.operations import get_or_create_user
+from database.operations import get_or_create_user, update_user_last_message_id
 from services.user_service import UserService
 from services.card_service import CardService
 from utils.logger import AppLogging
@@ -48,16 +48,19 @@ async def obusha_deck_handler(callback: types.CallbackQuery, lang: str):
                                       reply_markup=inline.get_return_to_edit_menu(lang),
                                       protect_content=True)
 
-
 @router.callback_query(F.data == "edit_menu")
 async def edit_menu_handler(callback: types.CallbackQuery, lang: str):
     await callback.answer()
+    user = await get_or_create_user(callback.from_user.id)
+
     try:
-        await callback.message.answer(
+        sent_msg_with_keyboard = await callback.message.answer(
             text=texts["menu"][lang]["main_menu_title"],
             reply_markup=inline.get_main_keyboard(lang),
             parse_mode="HTML"
         )
+        await update_user_last_message_id(user.telegram_id, sent_msg_with_keyboard.message_id)
+
     except exceptions.TelegramBadRequest as e:
         if "message is not modified" in str(e):
             pass
