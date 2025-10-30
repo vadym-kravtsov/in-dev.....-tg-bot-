@@ -19,8 +19,8 @@ async def admin_message(message: types.Message):
 
     cnt = 0
     for user_data in users_data:
-        if user_data.telegram_id == ADMIN_ID:
-            continue
+        # if user_data.telegram_id == ADMIN_ID:
+        #     continue
 
         try:
             keyboard = get_main_keyboard(user_data.language or "ua")
