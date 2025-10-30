@@ -19,7 +19,7 @@ router = Router()
 
 
 @router.message(Command("start"))
-async def start_handler(message: types.Message) -> None:
+async def start_handler(message: types.Message, lang: str) -> None:
     user = await get_or_create_user(message.from_user.id)
     user_name = message.from_user.first_name
     # keyboard = get_main_keyboard(user.language or "ua")

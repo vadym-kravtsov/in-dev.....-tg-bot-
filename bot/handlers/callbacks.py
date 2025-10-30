@@ -31,7 +31,7 @@ async def language_save_handler(callback: types.CallbackQuery):
 
 @router.callback_query(F.data == "change_lang")  # ⚙️
 async def settings_language_handler(callback: types.CallbackQuery, lang: str):
-    await callback.message.edit_text(  # type:ignore
+    await callback.message.edit_text(
         text=texts["menu"][lang]["choose_language"].split("\n")[1] + " 🌐",
         reply_markup=inline.get_settings_language_keyboard(),
         parse_mode="HTML",
@@ -51,14 +51,14 @@ async def gender_selection_handler(callback: types.CallbackQuery, state: FSMCont
     markup = await calendar.start_calendar(year=1990)
     await state.set_state(UserStates.waiting_for_birth_date)
     await callback.message.edit_text(
-        text=texts["menu"]["en"]["choose_birth_date"],
+        text=texts["menu"][lang]["choose_birth_date"],
         reply_markup=markup,
     )
 
 
 @router.callback_query(F.data == "change_gender")  # ⚙️
 async def settings_gender_handler(callback: types.CallbackQuery, lang: str):
-    await callback.message.edit_text(  # type:ignore
+    await callback.message.edit_text(
         text=texts["menu"][lang]["ask_gender"], reply_markup=inline.get_setting_gender_keyboard(lang),
         parse_mode="HTML"
     )

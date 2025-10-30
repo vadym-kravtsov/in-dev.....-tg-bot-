@@ -42,7 +42,7 @@ async def setup_dispatcher(dp: Dispatcher):
         logger.exception("❌ The Middleware for callback not is registered ")
         raise
     try:
-        await reset_db_once()
+        await init_db()
         logger.info("✅ The database has been initialized")
     except Exception:
         logger.exception("❌ Failed to initialize database")

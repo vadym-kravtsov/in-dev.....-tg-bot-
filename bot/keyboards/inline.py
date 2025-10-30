@@ -49,7 +49,7 @@ def get_calendar_keyboard(lang="en"):
     )
 
 
-def get_main_keyboard(lang="en"):
+def get_main_keyboard(lang: str):
     return InlineKeyboardMarkup(
         inline_keyboard=[
             [
