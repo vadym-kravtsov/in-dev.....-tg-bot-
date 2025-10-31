@@ -51,3 +51,4 @@ async def update_user_last_message_id(telegram_id: int, message_id: int) -> None
         if user:
             user.last_message_id = message_id
             await session.commit()
+        return None

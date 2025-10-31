@@ -4,7 +4,7 @@ from config.settings import DATABASE_URL
 
 db_url = DATABASE_URL.replace('postgres://', 'postgresql+asyncpg://', 1).split('?')[0]
 
-engine = create_async_engine(db_url)
+engine = create_async_engine(db_url, pool_size=5, pool_recycle=300, connect_args={"ssl": "require"})
 SessionLocal = async_sessionmaker(engine, expire_on_commit=False)
 
 
