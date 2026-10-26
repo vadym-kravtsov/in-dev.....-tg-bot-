@@ -1,18 +1,20 @@
-FROM python:3.10-slim
+FROM python:3.14-slim
 
-RUN apt-get update && apt-get install -y locales && \
-    sed -i '/en_US.UTF-8/s/^# //g' /etc/locale.gen && \
-    locale-gen en_US.UTF-8 && \
-    rm -rf /var/lib/apt/lists/*
+COPY --from=ghcr.io/astral-sh/uv:latest /uv /usr/local/bin/uv
 
-ENV LANG=en_US.UTF-8
-ENV LC_ALL=en_US.UTF-8
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    PATH="/engine/.venv/bin:$PATH"
 
-WORKDIR /bot
+WORKDIR /engine
 
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN groupadd -r appuser && useradd -r -g appuser -s /usr/sbin/nologin appuser
 
-COPY . .
+COPY pyproject.toml uv.lock ./
+RUN uv sync --frozen --no-dev --no-install-project
+
+COPY --chown=appuser:appuser . .
+
+USER appuser
 
 CMD ["python", "main.py"]
