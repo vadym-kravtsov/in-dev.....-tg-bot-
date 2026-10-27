@@ -1,33 +1,32 @@
 import asyncio
-from utils.logger import AppLogging
+import os
 from aiogram import Bot, Dispatcher
+from aiogram.client.default import DefaultBotProperties
+from config import log
+from bot.handlers.start_handler import router as start_handler
+from bot.handlers.kart_obusha import router as obusha_handler
+from bot.handlers.kart_vadaram import router as vadaram_handler
+token = os.environ["tg_token"]
 
-from setup import preload_card, setup_dispatcher
-
-from config.settings import BOT_TOKEN
-from utils.server import start_server
-
-logger = AppLogging.get_logger()
+dp = Dispatcher()
 
 
 async def main():
+    dp.include_router(start_handler)
+    dp.include_router(obusha_handler)
+    dp.include_router(vadaram_handler)
     try:
-        bot = Bot(token=BOT_TOKEN)
-        dp = Dispatcher()
-        logger.info("✅ Bot and dispatcher create")
+        bot = Bot(token=token, default=DefaultBotProperties(parse_mode="HTML"))
+        log.logger.info("bot started successfully.....")
+        await dp.start_polling(bot)
     except Exception as e:
-        logger.exception(f"❌ Failed to create bot {e}")
-        raise
-
-    await setup_dispatcher(dp)
-    await preload_card()
-    await start_server()
-    logger.info("✅ The bot is starting")
-    await dp.start_polling(bot)
+        log.logger.error(f"Error initializing bot: {e}")
 
 
 if __name__ == "__main__":
     try:
         asyncio.run(main())
-    except KeyboardInterrupt:
-        print("The Bot has been stopped ⛔")
+
+    except (KeyboardInterrupt, SystemExit):
+        print("bot stopped")
+    log.logger.info("bot stopped!")
