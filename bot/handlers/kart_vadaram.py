@@ -9,6 +9,7 @@ router: Router = Router()
 
 @router.message(F.text == "Vadaram")
 async def obusha_handler(message: types.Message) -> None:
+    await message.delete()  # delete the user's message to keep the chat clean
     key = randint(1, 80)
     kart = IDS_vdr[key]
     await message.answer_photo(
